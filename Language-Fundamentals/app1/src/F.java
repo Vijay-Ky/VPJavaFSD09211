@@ -4,4 +4,7 @@ public class F
 	{
 		System.out.println("done");
 	}
-}                                                  
+}  
+class Demo
+{
+}

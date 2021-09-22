@@ -4,7 +4,7 @@ class H
 	{
 		int i;
 		for(i = 0; i < 5; i++);
-		System.out.println("loop:" + i);
-		System.out.println("main:" + i);
+		System.out.println("loop: " + i);
+		System.out.println("main: " + i);
 	}
 }

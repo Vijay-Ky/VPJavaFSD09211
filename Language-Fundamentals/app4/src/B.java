@@ -2,7 +2,7 @@ class B
 {
 	public static void main(String[] args)
 	{
-		if(true)
+		if(true)//must be always resulting in boolean
 		{
 			System.out.println("from if");
 		}

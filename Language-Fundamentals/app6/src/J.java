@@ -4,7 +4,7 @@ class J
 	{
 		int i;
 		for(i = 5; i > 0; i--)
-		System.out.println("loop:" + i);
-		System.out.println("main:" + i);
+		System.out.println("loop: " + i);
+		System.out.println("main: " + i);
 	}
 }

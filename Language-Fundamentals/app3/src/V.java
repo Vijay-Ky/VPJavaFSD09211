@@ -8,6 +8,6 @@ class V
 			++i + ++i + --i + i +//0 + 1 + 0 + 0
 			--i + i + --i + i;//-1 + -1 + -2 + -2
 		System.out.println(i);//-2
-		System.out.println(j);//-4
+		System.out.println(j);//-4	
 	}
 }

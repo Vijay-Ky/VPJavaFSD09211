@@ -1,9 +1,8 @@
-class L
+class A
 {
 	public static void main(String[] args)
 	{
-		
-		if(!false)
+		if(10)//must be always resulting in boolean
 		{
 			System.out.println("from if");
 		}

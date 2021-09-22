@@ -1,4 +1,4 @@
-class O
+class T
 {
 	public static void main(String[] args)
 	{
@@ -16,7 +16,11 @@ class O
 		}
 		else
 		{
-			System.out.println("from last else if");
+			System.out.println("from last else");
+		}
+		else
+		{
+			System.out.println("from last else 2");
 		}
 	}
 }

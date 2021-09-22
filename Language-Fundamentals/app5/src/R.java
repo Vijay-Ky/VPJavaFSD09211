@@ -18,6 +18,5 @@ class R
 		{
 			System.out.println("from else if 2");
 		}
-		
 	}
 }
