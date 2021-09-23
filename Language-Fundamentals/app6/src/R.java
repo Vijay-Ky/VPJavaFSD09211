@@ -14,3 +14,19 @@ class R
 		System.out.println("main end");
 	}
 }
+/*
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+main end
+*/

@@ -1,4 +1,4 @@
-class Q
+class S1
 {
 	public static void main(String[] args)
 	{
@@ -8,29 +8,10 @@ class Q
 			if(i > 5)
 			{
 				continue;
+				System.out.println("if block");
 			}
 			System.out.println("loop end");
 		}
 		System.out.println("main end");
 	}
 }
-/*
-loop begin
-loop end
-loop begin
-loop end
-loop begin
-loop end
-loop begin
-loop end
-loop begin
-loop end
-loop begin
-loop end
-loop begin
-loop begin
-loop begin
-loop begin
-main end
-*/
-
