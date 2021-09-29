@@ -19,7 +19,7 @@ class I
 			System.out.println("odd");
 			break;
 			default:
-			System.out.println("num is greater than 10");
+			System.out.println("There is no matching case");
 		}
 	}
 }

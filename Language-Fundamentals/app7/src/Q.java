@@ -6,7 +6,7 @@ class Q
 		int i = 10;
 		do
 		{
-			System.out.println("body:" + i);
+			System.out.println("body: " + i);
 			i++;
 		}
 		while (i < 10);

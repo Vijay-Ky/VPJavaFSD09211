@@ -7,15 +7,14 @@ class H
 		{
 			case 2:
 				System.out.println("from case 2");
-				break;
-			case 2:
-				System.out.println("from case 3");
+			default:
+				System.out.println("from default");
+			case 20:
+				System.out.println("from case 20");
 				break;
 			case 5:
 				System.out.println("from case 5");
 				break;
-			default:
-				System.out.println("from default");
 		}
 		System.out.println("main end");
 	}

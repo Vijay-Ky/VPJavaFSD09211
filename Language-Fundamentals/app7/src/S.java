@@ -10,6 +10,6 @@ class S
 			i++;
 		}
 		while ((i++ == 1) || (i++ == 2));
-		System.out.println("main end");
+		System.out.println("main end " + i);
 	}
 }

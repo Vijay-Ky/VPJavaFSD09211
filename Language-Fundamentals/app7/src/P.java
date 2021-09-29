@@ -6,7 +6,7 @@ class P
 		int i = 0;
 		do
 		{
-			System.out.println("body:" + i);
+			System.out.println("body: " + i);
 			i++;
 		}
 		while (i < 5);

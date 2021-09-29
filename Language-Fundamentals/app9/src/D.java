@@ -7,7 +7,7 @@ class D
 	public static void main(String[] args)
 	{
 		System.out.println("from main begin");
-		test();
+		test();//calling statement
 		System.out.println("from main end");
 	}
 }

@@ -1,6 +1,6 @@
-class C
+class C//ClassCNormalCamelCase
 {
-	public static void test1()
+	public static void test1()//test1FromClassC()
 	{
 		System.out.println("from test1");
 	}

@@ -4,6 +4,8 @@ class E
 	{
 		System.out.println("main begin");
 		test1();
+		test1();
+		test1();
 		System.out.println("main end");
 	}
 	public static void test1()

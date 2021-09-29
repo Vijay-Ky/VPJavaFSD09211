@@ -7,7 +7,7 @@ class R
 		do
 		{
 			i++;
-			System.out.println("body:" + i);
+			System.out.println("body: " + i);
 			if(i == 20)
 			{
 				break;

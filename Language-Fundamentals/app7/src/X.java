@@ -3,6 +3,7 @@ class X
 	public static void main(String[] args)
 	{
 		int i = 0;
+		loop1:
 		do
 		{
 			System.out.println("loop1 begin:" + i);
@@ -13,7 +14,7 @@ class X
 				j++;
 				if(j > 1)
 				{
-					break;
+					break loop1;
 				}
 				System.out.println("loop2 end:" + j);
 			}

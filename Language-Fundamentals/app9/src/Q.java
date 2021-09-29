@@ -1,16 +1,14 @@
-class J
+class Q
 {
 	public static void main(String[] args)
 	{
 		System.out.println("main begin");
 		test();
 		System.out.println("main end");
-		return;
 	}
-	static void test()
+	public static String test()
 	{
 		System.out.println("from test");
-		return;
+		return 10;
 	}
 }
-//every method wil be having return type
