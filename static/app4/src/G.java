@@ -6,9 +6,10 @@ class G
 		i = 20;
 		i = 40;
 		System.out.println(i = 100);
+		//System.out.println(i);
 	}
 	static int i = 200;
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		System.out.println(i);
 		System.out.println("done");

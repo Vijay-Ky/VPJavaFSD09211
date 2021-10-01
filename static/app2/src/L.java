@@ -19,7 +19,7 @@ class M
 	{
 		System.out.println("M-main-begin");
 		L.main(null);
-		//L.main(args);
+		L.main(args);
 		System.out.println("M-main-end");
 	}
 }
