@@ -1,18 +1,10 @@
 class U
 {
-	/*
-	U()
-	{
-		//U u = new U();
-		System.out.println("U()");
-	}*/
-	
 	U()
 	{
 		this(10);
 		System.out.println("U()");
 	}
-	
 	U(int i)
 	{
 		this();

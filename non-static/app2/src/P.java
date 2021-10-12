@@ -9,7 +9,7 @@ class P
 	{
 		System.out.println("P(int, int)");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		P p1 = new P();
 		System.out.println("-----");

@@ -10,7 +10,6 @@ class X
 	public static void main(String[] args)
 	{
 		X x1 = new X(), x2 = new X();
-		//int i=9, j=20;
 		x1.i = 10;
 		x2.i = 20;
 		test(x1, x2); 

@@ -4,7 +4,7 @@ class F
 	F(int k)
 	{
 		i = 10;
-		System.out.println("F()");
+		System.out.println("F(int)");
 	}
 	public static void main(String[]args)
 	{

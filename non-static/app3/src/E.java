@@ -7,7 +7,7 @@ class E
 	{
 		System.out.println("E(int)");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		E e1 = new E(90);
 		System.out.println("-----");

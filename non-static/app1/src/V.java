@@ -5,7 +5,7 @@ class V
 	{
 		return new V();
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		V v1 = test();
 		System.out.println(v1.i);

@@ -7,7 +7,7 @@ class W
 		w2.i = w1.i;
 		return w2;
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		W obj = new W();
 		obj.i = 20;

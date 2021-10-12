@@ -9,7 +9,7 @@ class T
 		T t1 = new T();
 		System.out.println("T(int)");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		T obj1 = new T();
 		System.out.println("-----");
