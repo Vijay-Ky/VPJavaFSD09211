@@ -22,6 +22,8 @@ class B extends A
 	}
 	B()
 	{
+		//super()
+		//IIB
 		System.out.println("B()");
 	}	
 	{
@@ -36,6 +38,8 @@ class C extends B
 	}
 	C()
 	{
+		//super()
+		//IIB
 		System.out.println("C()");
 	}	
 	{

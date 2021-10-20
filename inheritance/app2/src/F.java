@@ -9,9 +9,9 @@ class A
 class F
 {
 	A obj;
-	F(A obj)
+	F(A objref)
 	{
-		this.obj = obj;
+		this.obj = objref;
 	}
 	void test2()
 	{

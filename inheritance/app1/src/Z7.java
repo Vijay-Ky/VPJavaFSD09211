@@ -1,6 +1,4 @@
-
 //  is-a
-
 class A
 {
 	static

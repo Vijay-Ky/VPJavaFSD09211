@@ -18,6 +18,8 @@ class B extends A
 {
 	B()
 	{
+		//super()
+		//IIB
 		System.out.println("B()");
 	}
 	B(int i)
@@ -31,8 +33,6 @@ class B extends A
 	}
 
 	{
-		System.out.println("B-IIB2");
-		System.out.println("B-IIB2");
 		System.out.println("B-IIB2");
 	}
 }

@@ -34,4 +34,6 @@ class P extends C
 		C c1 = new C();
 		System.out.println("---------");
 		P p1 = new P();
-		System.out.println("---------
+		System.out.println("---------");
+	}
+}

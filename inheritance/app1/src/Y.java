@@ -32,8 +32,6 @@ class B extends A
 
 	{
 		System.out.println("B-IIB2");
-		System.out.println("B-IIB2");
-		System.out.println("B-IIB2");
 	}
 }
 class C extends B

@@ -6,7 +6,7 @@ class A
 		System.out.println("A-test1");
 	}
 }
-class C
+class C 
 {
 	A obj;
 	void test2()
