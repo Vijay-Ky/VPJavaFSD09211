@@ -1,6 +1,7 @@
 interface MyInterface
 {
 	int i = 100;
+	//from JDK1.8
 	default void test1()
 	{
 		System.out.println("from test1() of MyInterface");
@@ -17,27 +18,45 @@ interface MyInterface
 	{
 		System.out.println("from test4() of MyInterface");
 	}
+
+
+	void test5();
+	//abstract static void test6();
 }
+
 class MyClass implements MyInterface 
 {
-	public static void test2()
+	public void test5()
 	{
-		System.out.println("from test2() of MyClass");
+		System.out.println("from test5() of MyClass");
 	}
+	
 	public static void main(String[] args) 
 	{
-		MyInterface obj = new MyClass();
-		obj.test1();
+
+		MyClass mc = new MyClass();
 		MyInterface.test2();
-		obj.test3();
 		MyInterface.test4();
-		//MyClass mc = new MyClass();
+		mc.test1();
+		mc.test3();
+
+		
+		
+		
+		//MyInterface obj = new MyClass();
+		//obj.test1();
+		//MyInterface.test2();
+		//obj.test3();
+		//MyInterface.test4();
+		
+		//static members are not involving in polymorphism
 		//test2();
+		//MyInterface.test2();
 		//mc.test3();
 		//MyInterface.test3();
-		//MyInterface.test2();
-		 //MyInterface obj2 = new MyClass();
+		// MyInterface obj2 = new MyClass();
 		 //obj2.test3();
 		//MyInterface.test4();
+		//obj2.test4();
 	}
 }

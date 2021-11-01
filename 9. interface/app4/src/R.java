@@ -6,7 +6,7 @@ interface S
 {
 	void test2();
 }
-interface T extends S,R
+interface T extends S, R
 {
 	void test3();
 }
@@ -21,7 +21,7 @@ class V
 		System.out.println("from test5");
 	}
 }
-class W extends V implements T,U
+class W extends V implements T, U
 {
 	public void test1()
 	{

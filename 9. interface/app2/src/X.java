@@ -1,4 +1,5 @@
 interface X
 {
-	int i;
+	//by default var are public, static, final
+	static int i;
 }

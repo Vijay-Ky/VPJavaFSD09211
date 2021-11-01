@@ -14,7 +14,7 @@ abstract class C
 		System.out.println("from test4");
 	}
 }
-class D extends C implements A,B
+class D extends C implements A, B
 {
 	public void test1()
 	{

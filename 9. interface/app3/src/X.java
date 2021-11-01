@@ -13,7 +13,7 @@ class Z
 		System.out.println("from test3");
 	}
 }
-class Z1 extends Z implements X,Y
+class Z1 extends Z implements X, Y
 {
 	public void test1()
 	{

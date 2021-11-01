@@ -24,3 +24,9 @@ class M implements L
 		System.out.println("done");
 	}
 }
+/*
+class - interface = implements
+interface - class = extends
+class - class = extends
+interface - interface = extends
+*/

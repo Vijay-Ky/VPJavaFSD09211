@@ -10,7 +10,7 @@ interface J
 {
 	void test3();
 }
-abstract class K implements H,I,J
+abstract class K implements H, I, J
 {
 	public void test2()
 	{

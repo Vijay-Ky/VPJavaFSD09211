@@ -6,7 +6,7 @@ interface O
 {
 	void test2();
 }
-interface P extends N,O
+interface P extends N, O
 {
 	void test3();
 }
